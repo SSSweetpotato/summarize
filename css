@@ -1,0 +1,17 @@
+/* iphone 和android 在横屏的情况下会放大字体,
+text-szie-adjust：100%/none的时候 */
+text-size-adjust:100%;
+/* 是绘制于元素周围的一条线，位于边框边缘的外围，
+可起到突出元素的作用。
+outline-style  outline-width outline-color
+outline:none  可以理解为没有outline这个属性，即不加边框
+outline：0 可以理解为outline-width：0，
+有些情况下点击a标签会有曲线边框出现，可以使用outline:0*/
+outline: 0;
+/* none:默认。定义带有小写字母和大写字母的标准文本。
+capiyalize:文本中的每个单词以大写字母开头。
+uppercase：定义仅有大写字母
+lowercase：定义无大写字母，仅有小写字母 */
+text-transform:none;
+/* <abbr> 标签指示简称或缩写 */
+ <abbr title="People's Republic of China">PRC</abbr>
